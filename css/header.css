@@ -4,6 +4,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
+html {
+    font-family: Open Sans, Arial, Helvetica, Sans-serif;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,12 +31,11 @@ margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 3dvh 0dvh 5dvh 3dvh ;
+    padding: 3dvh 0dvh 5dvh 3dvh;
 }
 
 .headtitle p {
     padding-top: 5dvh;
-
 }
 
 .mainnav {
