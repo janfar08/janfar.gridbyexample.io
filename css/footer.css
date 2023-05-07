@@ -1,0 +1,28 @@
+.footer {
+
+    background-image: url(https://gridbyexample.com/img/inflicted.png);
+    padding: 1rem;
+    margin: auto;
+    height: auto;
+
+}
+
+.footerbox {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 90%;
+    max-width: 1600px;
+    text-decoration: black;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 0.5rem;
+}
+
+.footerbox li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.footerbox p {
+    margin-bottom: 10px;
+}
