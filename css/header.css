@@ -36,18 +36,22 @@ margin-right: 30px;
 }
 
 .mainnav {
-    display: flex;
-    justify-content: flex-start;
+    border-bottom: 1px solid #222;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all;
+    transition-duration: .5s;
   }
   
   .nav {
     display: flex;
-    list-style: none;
-    padding: 7;
-    margin: 7;
-    justify-content: space-between;
+    list-style: none;       
   }
   
   .nav li {
-    margin-right: 10px;
+    color: #222;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
