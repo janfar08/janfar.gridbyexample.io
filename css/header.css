@@ -57,8 +57,11 @@ padding-bottom: 30px;
   }
   
   .nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     list-style: none;    
+    grid-gap: 80px;
   }
   
   .nav li {
@@ -69,13 +72,30 @@ padding-bottom: 30px;
     padding-inline-end: 7%;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
   }
 
   .nav li a {
     color: #222;
     text-decoration: none;
+    
   }
   
   .nav li:hover {
     background-color: #f0f0f0;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
   }
